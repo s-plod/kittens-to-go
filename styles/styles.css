@@ -1,3 +1,21 @@
 * {
+  color: rgb(57,57,57);
   font-family: sans-serif;
+  line-height: 1.8rem;
+}
+aside {
+  float: right;
+  margin-right: 6rem;
+  width: 19rem;
+}
+h3 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+a {
+  color: rgb(37,155,183);
+  text-decoration: none;
+}
+figure {
+  margin-left: 0;
 }
