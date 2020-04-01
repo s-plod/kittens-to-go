@@ -1,9 +1,9 @@
 * {
-  color: rgb(57,57,57);
   font-family: sans-serif;
   line-height: 1.8rem;
 }
 aside {
+  color: rgb(57,57,57);
   float: right;
   margin-right: 6rem;
   width: 19rem;
@@ -18,4 +18,17 @@ a {
 }
 figure {
   margin-left: 0;
+}
+footer {
+  float: left;
+  position: relative;
+  margin-top: 6rem;
+}
+.info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  color: green;
 }
