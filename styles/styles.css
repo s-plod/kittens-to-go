@@ -1,12 +1,35 @@
-* {
-  font-family: sans-serif;
-  line-height: 1.8rem;
-}
+/* Specific to index page */
+
 .sidebar {
   color: rgb(57,57,57);
   float: right;
   margin-right: 6rem;
   width: 19rem;
+}
+
+/* Specific to about page */
+
+header {
+  position: relative;
+}
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  color: white;
+}
+.body-content {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+/* Universal */
+
+* {
+  font-family: sans-serif;
+  line-height: 1.8rem;
 }
 h3 {
   font-size: 2rem;
